@@ -1,0 +1,375 @@
+html {
+  font-size: 16px;
+  scroll-behavior: smooth;
+}
+
+body
+{
+
+
+
+  height: 100%;
+  min-height: 100%;
+}
+
+
+
+#title
+{
+  background-color: #fb5b5a
+
+
+}
+.container-fluid
+{
+  padding: 3% 5%;
+}
+#trailer
+{
+  width: 90%;
+  height: auto;
+  margin-bottom: 10%;
+  justify-content: center;
+
+
+}
+#info-button
+{
+  margin-left: 7%;
+}
+.navbar
+{
+  padding-bottom: 4.5rem;
+}
+.nav-link
+{
+  font-family: "Montserrat", sans-serif;
+
+}
+#boomer
+{
+  font-family: 'Sacramento', cursive;
+
+  /*font-family: "Indie Flower", sans-serif;*/
+  font-weight: 400;
+  text-align: center;
+  font-size: 3rem;
+  line-height: 1.5;
+  margin-left: 10%;
+}
+.title-image
+{
+  justify-content: center;
+
+  width: 90%;
+  height: auto;
+  margin-bottom: 10%;
+
+
+}
+.navbar-brand
+{
+  font-size: 2.5rem;
+}
+
+
+
+.hidero
+{
+    display:none;
+}
+.title-words
+{
+
+  margin-left: 30%;
+  margin-bottom: 10%;
+  width: 50%;
+  height: auto;
+}
+.poster-girl
+{
+  width: 85%;
+  padding-bottom: 4.5rem;
+  padding-top: 3rem;
+  margin-left: 1rem;
+  float: left;
+}
+.intro-head
+{
+  font-size: 3rem;
+  padding-top: 2rem;
+  font-family: 'Sacramento', cursive;
+  font-weight: 400;
+  color: #fb5b5a;
+float: center;
+text-align: center;
+
+}
+.intro-container
+{
+justify-content: center;
+}
+#intro-h
+{
+  padding-top: 4rem;
+  padding-right: 2rem;
+  padding-bottom: 4rem;
+  text-align: center;
+}
+.bioware
+{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 20px;
+  font-weight: 300;
+  color: #000000;
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
+#leaves
+{
+  width: 1%
+  height: auto;
+  float: center;
+  padding: 20px;
+
+}
+#bio-container
+{
+  padding: 3% 5%;
+}
+#cast
+{
+  padding: 7% 15%;
+background-color: #d1274b;
+text-align: center;
+}
+.cast-image
+{
+  width: auto;
+  height: 400px;
+  max-height: 400px;
+padding: 3% 5%;
+
+}
+.actor-name
+{
+  color: #000000;
+  font-size: 20px;
+  font-family: "Montserrat",sans-serif;
+  font-weight: 900;
+  padding: 5%7%;
+}
+.character-name
+{
+  color: #000000;
+  font-size: 16px;
+  font-family: "Montserrat",sans-serif;
+  font-weight: 100i;
+}
+.row
+{
+  justify-content: center;
+}
+.details-card {
+	background: #FFFFFF;
+}
+
+.card-content {
+	background: #FFFFFF;
+	border: 4px;
+	box-shadow: 0 2px 5px 0 rgba(0,0,0,.16), 0 2px 10px 0 rgba(0,0,0,.12);
+
+}
+
+.card-img {
+	position: relative;
+	overflow: hidden;
+	border-radius: 0;
+	z-index: 1;
+  max-height: 300px;
+}
+
+.card-img img {
+	width: 100%;
+	height: auto;
+	display: block;
+}
+
+.card-img span {
+	position: absolute;
+    top: 15%;
+    left: 12%;
+    background: #1ABC9C;
+    padding: 6px;
+    color: #fff;
+    font-size: 12px;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+    transform: translate(-50%,-50%);
+}
+.card-img span h4{
+        font-size: 12px;
+        margin:0;
+        padding:10px 5px;
+         line-height: 0;
+}
+.card-desc {
+	padding: 1.25rem;
+}
+.cast-title
+{
+  font-size: 6rem;
+  padding-top: 1rem;
+  padding-bottom: 2rem;
+
+  font-family: "Sacramento", cursive;
+  font-weight: 400;
+  color: #FFFFFF;
+
+
+}
+.carousel-control-next,
+.carousel-control-prev {
+    filter: invert(100%);
+}
+#fanart
+{
+  padding: 7% 15%;
+
+text-align: center;
+}
+.fan-title
+{
+  font-size: 6rem;
+  padding-top: 2rem;
+  font-family: 'Sacramento', cursive;
+  font-weight: 400;
+  color: #fb5b5a;
+float: center;
+text-align: center;
+}
+#countdown
+{
+  padding: 7% 15%;
+  background-color: #b52b65;
+
+text-align: center;
+}
+.count-timer
+{
+  text-align: center;
+}
+@media screen and (max-width: 500px) {
+  #counterr
+  {
+    text-align: center;
+    width: 100%;
+    height:auto;
+    padding: 1rem;
+
+    }
+    .fan-title
+    {
+      font-size: 4rem;
+      padding: 5%;
+    }
+ .top-button
+    {
+        max-width: 350px;
+        padding:1rem;
+    }
+    .intro-head
+    {
+        font-size:2.5rem;
+        text-align:center;
+
+    }
+    .video-pl
+    {
+      text-align: center;
+      width: 70%;
+    }
+    .poster-girl
+    {
+      text-align: center;
+      max-width:  250px;
+      width: 80%;
+      padding: 5%5%;
+
+
+      padding-top: 0;
+      padding-bottom: 0;
+    }
+}
+#count-title
+{
+  text-align: center;
+
+  padding: 5%5%;
+  font-size: 30px
+  font-family: "Montserrat", sans-serif;
+  font-weight: 900;
+  color: #FFFFFF;
+  shape-outside: 1px;
+
+}
+#cta
+{
+  background-color: #b52b65;
+}
+.social-icon {
+	height: auto;
+	line-height: 50px;
+  color: #000000;
+  text-align:center;
+	/*color: rgba(255, 255, 255, 0.8);*/
+	-webkit-transition: all 0.3s ease-in-out;
+	-moz-transition: all 0.3s ease-in-out;
+	-ms-transition: all 0.3s ease-in-out;
+	-o-transition: all 0.3s ease-in-out;
+	transition: all 0.3s ease-in-out;
+}
+.fa:hover, .fa:active {
+  color:#000000;
+ 	-webkit-transform: scale(1.3);
+	-moz-transform: scale(1.3);
+	-ms-transform: scale(1.3);
+	-o-transform: scale(1.3);
+	transform: scale(1.3);
+}
+.social-media
+{
+  text-align: center;
+
+}
+.icons
+{
+  width: 10%;
+  height: auto;
+}
+
+#footer
+{
+  background-color: #b52b65;
+  padding: 3%;
+  text-align: center;
+
+}
+
+
+.footer-text
+{
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 100;
+  font-size: 14px;
+  color: #F3F3F3;
+  opacity: 60%;
+}
+.audible
+{
+  display: none;
+}
